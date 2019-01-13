@@ -13,13 +13,13 @@
 
     &-primary {
         border-color: #7A0606;
-        background-image: linear-gradient(to bottom, #7A0606, #7A0606);
+        background-image: linear-gradient(to bottom, #9b1b14, #7A0606);
 
         &:hover,
         &:focus,
         &:active {
             border-color: #7A0606 !important;
-            background-image: linear-gradient(to bottom, #7A0606, #7A0606) !important;
+            background-image: linear-gradient(to bottom, #9b1b14, #7A0606) !important;
         }
     }
 }

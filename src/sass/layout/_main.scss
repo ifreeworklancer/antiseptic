@@ -37,7 +37,7 @@ footer {
     position: absolute;
     left: 10px;
     font-weight: 900;
-    font-size: 100px;
+    font-size: 90px;
     letter-spacing: 8px;
     line-height: .8;
     color: #ffffff;
@@ -51,7 +51,7 @@ footer {
     font-weight: 400;
     font-style: italic;
     color: #7A0606;
-    z-index: 3;
+    z-index: 5;
 }
 
 .top-section .page-title {
@@ -213,7 +213,6 @@ footer {
 @media only screen and (max-width: 1200px) {
     .top-section .bg {
         top: 25px;
-        font-size: 110px;
     }
 
     .top-section .antiseptic {
@@ -235,6 +234,7 @@ footer {
 
     .top-section .antiseptic {
         position: inherit;
+        height: 400px;
     }
 
     .composition-section .item {
@@ -246,6 +246,10 @@ footer {
 @media only screen and (max-width: 768px) {
     .top-section .bg {
         display: none;
+    }
+
+    .top-section .order {
+        display: block;
     }
 
     .top-section .order .price {
